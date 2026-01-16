@@ -17,8 +17,8 @@ else
 fi
 
 # 设置环境变量（需手动填写）
-export ANTHROPIC_AUTH_TOKEN=sk-CpKzICGFHX7fLPMglAmHq29E2FueAKAz8EqWN1BUC4YVTbEt
-export ANTHROPIC_BASE_URL=https://xinghuapi.com
+export ANTHROPIC_AUTH_TOKEN=
+export ANTHROPIC_BASE_URL=
 
 # 启动claude
 echo "启动Claude..."
