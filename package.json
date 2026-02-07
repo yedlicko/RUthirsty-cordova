@@ -1,0 +1,12 @@
+{
+  "name": "com.ruthirsty.app",
+  "displayName": "RUthirsty",
+  "version": "1.0.0",
+  "description": "喝水打卡应用",
+  "cordova": {
+    "plugins": {},
+    "platforms": [
+      "android"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta name="format-detection" content="telephone=no">
+    <title>RUthirsty - 喝水打卡</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💧 RUthirsty</h1>
+            <p class="subtitle">喝水打卡</p>
+        </header>
+
+        <div class="stats-section">
+            <div class="stat-card">
+                <div class="stat-value" id="todayCount">0</div>
+                <div class="stat-label">今日打卡</div>
+            </div>
+        </div>
+
+        <div class="action-section">
+            <button id="checkInBtn" class="check-in-btn">
+                <span class="icon">🥤</span>
+                <span class="text">打卡</span>
+            </button>
+        </div>
+
+        <div class="history-section">
+            <h2>今日记录</h2>
+            <div id="historyList" class="history-list">
+                <p class="empty-message">暂无记录，快去喝水吧！</p>
+            </div>
+        </div>
+
+        <div class="clear-section">
+            <button id="clearBtn" class="clear-btn">清除今日记录</button>
+        </div>
+    </div>
+
+    <script src="cordova.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
